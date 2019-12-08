@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="main.css" rel="stylesheet">
+    <title>widget weather Dmitriy Mart</title>
+</head>
+<body>
+<div class="widgetBody" >
+    <div class= "commonShadow"> </div>
+    <div id="doNotTap" class="zIndexLvlTest" onclick="myFunctionBack()">
+        you clicked on a degree in the lower<br> right block, now click on
+        the horse to <br>bring everything back. Thank you<br> that helped me with test</div>
+    <div id="firstBlock" class="first">
+        <a>
+            <img class="positionRelative positionBigIcons inverted"  src="https://img.icons8.com/dotty/105/000000/windy-weather.png" alt="Tap f5">
+        </a>
+        <div class="textInDiv">
+            <p class="pOne firstText">CHICAGO&thinsp;/&thinsp;23&deg;</p>
+        </div>
+    </div>
+
+    <div id = "second"  class="second grow">
+        <a>
+            <img class="positionRelative positionBigIcons inverted"  src="https://img.icons8.com/dotty/100/000000/partly-cloudy-rain.png" alt="Tap f5">
+        </a>
+        <div class="textInDiv ">
+            <p class="pOne secondText">SEATLE&thinsp;/&thinsp;34&deg;</p>
+        </div>
+    </div>
+
+    <div id = "third"  class="third grow">
+        <a>
+            <img class="positionRelative positionBigIcons inverted"  src="https://img.icons8.com/dotty/105/000000/sun.png"  alt="Tap f5">
+        </a>
+        <div class="textInDiv ">
+            <p class="pOne thirdText ">BROOKLYN&thinsp;/&thinsp;55&deg;</p>
+        </div>
+    </div>
+
+    <div id = "fourth" class="fourth grow">
+        <a>
+            <img class="positionRelative positionBigIcons inverted"  src="https://img.icons8.com/dotty/105/000000/chance-of-storm.png" alt="Tap f5">
+        </a>
+
+        <div class="textInDiv">
+            <p class="pOne fourthText " >PORTLAND&thinsp;/&thinsp;27&deg;</p>
+        </div>
+    </div>
+
+    <div id = "fifthUp" class="fifthUp">
+        <a>
+            <img class="positionRelative positionMiddleIcon inverted" src="https://img.icons8.com/dotty/70/000000/night-wind-.png" alt="Tap f5">
+        </a>
+    </div>
+
+    <div id = "fifthDown"  class="fifthDown grow">
+        <div class="miniTextInDivTop">
+            <p class="pMini ">MON &ensp; TUE &ensp;&thinsp;WEN &ensp;&thinsp;&thinsp;THU</p>
+        </div>
+
+        <div class="miniIconOne">
+            <img class="positionRelative positionBigIcons inverted" src="https://img.icons8.com/dotty/25/000000/partly-cloudy-rain.png" alt="Tap f5">
+        </div>
+
+        <div class="miniIconTwo">
+            <img class="positionRelative positionBigIcons inverted" src="https://img.icons8.com/dotty/25/000000/clouds.png" alt="Tap f5">
+        </div>
+
+        <div class="miniIconThree">
+            <img class="positionRelative positionBigIcons inverted" src="https://img.icons8.com/dotty/25/000000/sun.png" alt="Tap f5">
+        </div>
+
+        <div class="miniIconFour">
+            <img class="positionRelative positionBigIcons inverted" src="https://img.icons8.com/dotty/25/000000/clouds.png" alt="Tap f5">
+        </div>
+
+
+
+        <div class="miniTextInDivBottom">
+            <p class="pMini">22 &deg; &ensp;&thinsp; 19 &deg; &thinsp;&thinsp;&thinsp; 18 &deg; &ensp;&thinsp; 14 &deg;</p>
+        </div>
+    </div>
+
+    <div id = "sixth" class="sixth grow">
+        <a>
+            <img class="positionRelative positionBigIcons inverted" , src="https://img.icons8.com/dotty/105/000000/clouds.png" alt="Tap f5">
+        </a>
+        <div class="textInDiv ">
+            <p class="pOne sixthText">SAN JOSE&thinsp;/&thinsp;47<span onclick="myFunction()" id="doNotTap" class="pOne">&deg;</span> </p>
+        </div>
+    </div>
+
+</div>
+
+
+<script>
+    function myFunction() {
+        document.getElementById("doNotTap").style.zIndex = "+1";
+    }
+    function myFunctionBack() {
+        document.getElementById("doNotTap").style.zIndex = "-1";
+    }
+
+</script>
+</body>
+</html>
