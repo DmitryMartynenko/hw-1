@@ -1,35 +1,223 @@
+.lw { font-size: 35px;
+    color: blue;}
+.body {}
+.widget-wrap{
 
-html {
-    font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
-    height: 100%;
+    position: relative;
+    margin: 0 auto;
+    width:800px;
+    height:600px;
+}
+.widget-body {
+    position: absolute;
+    width:100%;
+    height:100%;
+    margin: auto;
+    background: url(https://i.ibb.co/ygcCQww/Cubes-1.png);
 }
 
-body {
-    background-color: lightgray;
-    height: 100%;
+.common-shadow {
+    box-shadow: 0 0 60px 10px;
+    position: absolute;
+    bottom:20%;
+    left:12.2%;
+    width:74.75%;
+    height:65.43%;
+    padding: 2px;
+    z-index:0;
 }
 
-h1, h2, h3, h4, h5, h6 { margin: 0; }
+.widget-body__secret__picture{
+    box-shadow: 0 0 20px 5px;
+    color: darkolivegreen;
+    position: absolute;
+    bottom:20%;
+    left:12.2%;
+    width:74.75%;
+    height:65.43%;
+    padding: 2px;
+    z-index:-1;
+    background: url(https://i.ibb.co/6t2BPZ6/konokrad-tsyganskoy-narodnosti-otmetilsya-v-mordovii.png);
+}
 
-ul, li {
-    list-style-type: none;
-    margin: 0;
+.widget-body__first__block {
+    position: absolute;
+    bottom:53.1%;
+    left:12.2%;
+    background-color:#06b3db;
+    width:24.35%;
+    height:32.33%;
+    padding: 2px;
+
+}
+.widget-body__first__block__text {
+    display: block;
+    position: relative;
     padding: 0;
+    left:-6%;
+    bottom:-65.1%;
 }
 
-a { text-decoration: none; }
+.widget-body__second__block {
+    position: absolute;
+    bottom:53.1%;
+    left:37.0%;
+    background-color:#4ed486;
+    width:24.25%;
+    height:32.33%;
+    padding: 2px;
 
-p { margin: 0; }
+}
+.widget-body__second__block__text  {
+    display: block;
+    position: relative;
+    padding: 0;
+    left:10%;
+    bottom:-65.1%;
+}
 
-audio,
-canvas,
-iframe,
-img,
-svg,
-video,
-textarea { vertical-align: middle; }
+.widget-body__third__block {
+    position: absolute;
+    bottom:53.1%;
+    left:61.7%;
+    background-color:#6139f6;
+    width:25.25%;
+    height:32.33%;
+    padding: 2px;
 
-textarea { resize: none; }
+}
+.widget-body__third__block__text {
+    display: block;
+    position: relative;
+    padding: 0;
+    left:-7%;
+    bottom:-65.1%;
+}
 
-section { position: relative; }
+.widget-body__fourth__block {
+    position: absolute;
+    bottom:20.03%;
+    left:12.2%;
+    background-color:#e3b63d;
+    width:24.3%;
+    height:32.44%;
+    padding: 2px;
+}
+.widget-body__fourth__block__text {
+    display: block;
+    position: relative;
+    padding: 0;
+    left:-7%;
+    bottom:-65.1%;
+}
+
+.widget-body__fourth__block__top{
+    position: absolute;
+    bottom:36%;
+    left:37%;
+    background-color:#dc3d66;
+    width:24.2%;
+    height:16.45%;
+    padding: 2px;
+
+}
+.widget-body__fourth__block__bottom{
+    position: absolute;
+    bottom:20%;
+    left:37%;
+    background-color:#b43255;
+    width:24.2%;
+    height:15.33%;
+    padding: 2px;
+
+}
+
+.widget-body__sixth__block{
+    position: absolute;
+    bottom:20%;
+    left:61.7%;
+    background-color:#bd54cd;
+    width:25.25%;
+    height:32.43%;
+    padding: 2px;
+
+}
+.widget-body__sixth__block__text {
+    display: block;
+    position: relative;
+    padding: 0;
+    left:-7%;
+    bottom:-65.1%;
+}
+
+.widget-body__text {
+    position: absolute;
+    bottom:2.5%;
+    left:18.0%;
+}
+
+.miniTextInDivTop {
+    position: absolute;
+    top:-10%;
+    left:7%;
+}
+
+.miniTextInDivBottom {
+    position: absolute;
+    top:50%;
+    left:12.5%;
+}
+.miniIconOne {
+    position: absolute;
+    top:47.5%;
+    left:11%;
+}
+.miniIconTwo {
+    position: absolute;
+    top:47.5%;
+    left:33.9%;
+}
+.miniIconThree {
+    position: absolute;
+    top:47.5%;
+    left:55.9%;
+}
+.miniIconFour {
+    position: absolute;
+    top:47.5%;
+    left:79.2%;
+}
+
+.pOne {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: white; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 26.4px;
+}
+.pMini { font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 26.4px; color: white;
+}
+.positionRelative{
+    position: relative; /*Положение элемента устанавливается относительно его исходного места*/
+}
+.positionBigIcons {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 17%; right: 0;
+}
+.positionMiddleIcon {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 3%; right: 0;
+}
+.inverted {
+    filter: invert(100%);
+}
+
+/*.grow:hover {
+    -webkit-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    transform: scale(1.01);
+    z-index: 1;
+    -webkit-box-shadow: 0 0 .01px 1px inset;
+    -ms-box-shadow: 0 0 0.1px 1px inset;
+    color: ghostwhite;
+}*/
+
