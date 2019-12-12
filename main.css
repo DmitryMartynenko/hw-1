@@ -1,23 +1,28 @@
-.lw { font-size: 35px;
-    color: blue;}
-.body {}
-.widget-wrap{
 
-    position: relative;
-    margin: 0 auto;
-    width:800px;
-    height:600px;
-}
-.widget-body {
+.body {
+    width:100%;
+    height:100%;}
+
+*{margin: 0px}
+
+.widget-wrap{
     position: absolute;
+    margin: 0 auto;
     width:100%;
     height:100%;
+    background: url(https://i.ibb.co/BsGWqFD/Cubes-1.jpg);
+}
+.widget-body {
+    position: relative;
+    top: 10%;
+    width:800px;
+    height:600px;
     margin: auto;
-    background: url(https://i.ibb.co/ygcCQww/Cubes-1.png);
+
 }
 
 .common-shadow {
-    box-shadow: 0 0 60px 10px;
+    box-shadow: 0 0 90px 15px;
     position: absolute;
     bottom:20%;
     left:12.2%;
@@ -39,6 +44,21 @@
     z-index:-1;
     background: url(https://i.ibb.co/6t2BPZ6/konokrad-tsyganskoy-narodnosti-otmetilsya-v-mordovii.png);
 }
+#doNotTap{
+
+}
+p {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;;
+    color: white; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 26.4px;
+    text-transform: uppercase;
+}
+
+img {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 15%; right: 0;
+}
+
 
 .widget-body__first__block {
     position: absolute;
@@ -54,8 +74,7 @@
     display: block;
     position: relative;
     padding: 0;
-    left:-6%;
-    bottom:-65.1%;
+    left:-7%;
 }
 
 .widget-body__second__block {
@@ -72,8 +91,7 @@
     display: block;
     position: relative;
     padding: 0;
-    left:10%;
-    bottom:-65.1%;
+    left: 3.5%;
 }
 
 .widget-body__third__block {
@@ -91,7 +109,6 @@
     position: relative;
     padding: 0;
     left:-7%;
-    bottom:-65.1%;
 }
 
 .widget-body__fourth__block {
@@ -107,11 +124,10 @@
     display: block;
     position: relative;
     padding: 0;
-    left:-7%;
-    bottom:-65.1%;
+    left:-8%;
 }
 
-.widget-body__fourth__block__top{
+.widget-body__fifth__block__top{
     position: absolute;
     bottom:36%;
     left:37%;
@@ -121,7 +137,13 @@
     padding: 2px;
 
 }
-.widget-body__fourth__block__bottom{
+.widget-body__fifth__block__top__img{
+    position: absolute;
+    margin: auto;
+    top: 0; left: 0; bottom: 3%; right: 0;
+}
+
+.widget-body__fifth__block__bottom{
     position: absolute;
     bottom:20%;
     left:37%;
@@ -146,79 +168,56 @@
     display: block;
     position: relative;
     padding: 0;
-    left:-7%;
-    bottom:-65.1%;
+    left:-3%;
 }
 
 .widget-body__text {
     position: absolute;
-    bottom:2.5%;
+    bottom:12.5%;
     left:18.0%;
 }
 
-.miniTextInDivTop {
+.widget-body__fifth__block__bottom__text__top {
     position: absolute;
-    top:-10%;
+    top:5%;
     left:7%;
 }
 
-.miniTextInDivBottom {
-    position: absolute;
-    top:50%;
-    left:12.5%;
-}
-.miniIconOne {
+.widget-body__fifth__block__bottom__small__img__one{
     position: absolute;
     top:47.5%;
     left:11%;
 }
-.miniIconTwo {
+.widget-body__fifth__block__bottom__small__img__two {
     position: absolute;
     top:47.5%;
     left:33.9%;
 }
-.miniIconThree {
+.widget-body__fifth__block__bottom__small__img__three {
     position: absolute;
     top:47.5%;
     left:55.9%;
 }
-.miniIconFour {
+.widget-body__fifth__block__bottom__small__img__four {
     position: absolute;
     top:47.5%;
     left:79.2%;
 }
 
-.pOne {
-    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-    color: white; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 26.4px;
-}
-.pMini { font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 26.4px; color: white;
-}
-.positionRelative{
-    position: relative; /*Положение элемента устанавливается относительно его исходного места*/
-}
-.positionBigIcons {
-    margin: auto;
+.widget-body__fifth__block__bottom__text__bottom {
     position: absolute;
-    top: 0; left: 0; bottom: 17%; right: 0;
-}
-.positionMiddleIcon {
-    margin: auto;
-    position: absolute;
-    top: 0; left: 0; bottom: 3%; right: 0;
-}
-.inverted {
-    filter: invert(100%);
+    top:65%;
+    left:12.5%;
+
 }
 
 
-/*.grow:hover {
-    -webkit-transform: scale(1.01);
-    -ms-transform: scale(1.01);
-    transform: scale(1.01);
-    z-index: 1;
-    -webkit-box-shadow: 0 0 .01px 1px inset;
-    -ms-box-shadow: 0 0 0.1px 1px inset;
-    color: ghostwhite;
-}*/
+
+.small__text {
+    font-size: 15px;
+}
+
+
+
+
 
